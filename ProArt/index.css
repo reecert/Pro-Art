@@ -1,0 +1,129 @@
+html ,body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#demo{
+    margin: 0px;
+    padding: 0px;
+    border:5px solid #000;
+}
+.float-gradient{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+   margin: 5px 5px;
+    background-image: linear-gradient(90deg,#1a2a6c,#b21f1f,#fdbb2d);
+    border: none;
+}
+.float-black{
+    border: none;
+    margin: 5px 5px;
+    background-color: #000;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.float-red{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px;
+   background-color: red;
+   border: none;
+}
+.float-blue{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px;
+   background-color: blue;
+   border: none;
+}
+.float-white{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px;
+   background-color:white;
+   border: 1px solid #000;
+}
+.float-green{
+   
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px;
+   background-color:green;
+   border: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    align-items:center;
+}
+.picker{
+    padding: 10px 10px 10px;
+}
+#value{
+    font-size: 1.5rem;
+     padding-top: 40px;
+     padding-right: 10px;
+     position: relative;
+    
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  .brush{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+  .brush > p{
+      padding: 0px;
+      margin: 5px;
+
+  }
+  .picker-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      font-family: sans-serif;
+  }
